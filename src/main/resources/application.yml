@@ -1,0 +1,9 @@
+#zipkin
+zipkin:
+  server: http://127.0.0.1:9411/api/v2/spans
+  localService: whchat
+
+server:
+  port: 9000
+
+logging.config: classpath:log4j2.xml
